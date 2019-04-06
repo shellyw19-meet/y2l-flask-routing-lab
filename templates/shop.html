@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	#fruits{
+		font-size: 40px;
+		color: white;
+		background-color: green;
+}
+	#header{
+		font-size: 60px;
+		background-color: black;
+		color: white;
+	}
+	</style>
+	<title>SHOP</title>
+
+</head>
+<body>
+	<center>
+	<div id = "header">
+	<h1> our fruits </h1>
+	<hr>
+</div>
+	<br>
+	<br>
+	<div id = "fruits">
+	{%for fruit in fruits%}
+{{fruit}}
+<br>
+{%endfor%}
+	</div>
+</center>
+</body>
+</html>
